@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.World.MyByte;
+
 public class Player {
     private int x,y,z;
     private String name;
@@ -7,6 +9,12 @@ public class Player {
         this.x = x;
         this.y = y;
         this.z = z;
+
+        MyByte bt=new MyByte();
+        bt.b2=!bt.b0;
+        bt.b6=this.x%2==0;
+        bt.b4=z%2==1;
+
     }
     public void walk(){
         x++;

@@ -10,4 +10,14 @@ public class DogHelper implements AgeChecker {
        birthYear=birthYear-(birthYear- Calendar.getInstance().get(Calendar.YEAR))*7;
        return new PersonHelper().isAdult(birthYear,birthMonth,birthDay);
     }
+    public static class MySecondByte{
+        public boolean b0;
+        public boolean b1;
+        public boolean b2;
+        public boolean b3;
+        public boolean b4;
+        public boolean b5;
+        public boolean b6;
+        public boolean b7;
+    }
 }
