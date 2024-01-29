@@ -17,7 +17,7 @@ dependencies {
         rewrite("com.dataClumpFixing:dataClumpFixing:0.1.0-SNAPSHOT")
 }
 rewrite{
-    activeRecipe("org.openrewrite.java.UpdateSourcePositions","com.dataClumpFixing.DataClumpFixer")
+    activeRecipe("org.openrewrite.java.UpdateSourcePositions","com.dataClumpFixing.DataClumpFinder")
 
 }
 tasks.test {
