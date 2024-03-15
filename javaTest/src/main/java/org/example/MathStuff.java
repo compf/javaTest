@@ -4,6 +4,13 @@ public class MathStuff {
     private boolean sign;
     private double mantissa;
     private int exponent;
+    /**
+     * Prints the length of the vector (x, y, z)
+     * @param x the x component of the vector
+     * @param y the y component of the vector
+     * @param z the z component of the vector
+     * 
+     */
     public void printLength(int x, int y, int z) {
         System.out.println(Math.sqrt(x * x + y * y + z * z));
     }
